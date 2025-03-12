@@ -17,17 +17,19 @@ export default function Home() {
 
         {/* Body */}
         <div className="body">
-          <Image 
-            src={Pokedex} 
-            alt="pokedex" 
-            height={250} 
-            width={250} 
-            className="pokedex-image" 
+          <Image
+            src={Pokedex}
+            alt="pokedex"
+            height={250}
+            width={250}
+            className="pokedex-image"
           />
           <div className="bodyContent">
             <p id="title">Catch 'em All</p>
             <p id="subtitle">Explore with our Interactive Pokédex</p>
-            <button className="explore-button">View Pokédex</button>
+            <a href="https://www.youtube.com/shorts/41iWg91yFv0" target="blank__">
+              <button className="explore-button" >View Pokédex</button>
+            </a>
           </div>
         </div>
       </main>
