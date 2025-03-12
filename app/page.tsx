@@ -8,11 +8,13 @@ export default function Home() {
         {/* Header */}
         <div className="header">
           <p className="logo">Pokédex</p>
-          <div className="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+          <a href="https://www.youtube.com/shorts/41iWg91yFv0" target="blank__">
+            <div className="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
         </div>
 
         {/* Body */}
